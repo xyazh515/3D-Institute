@@ -1,0 +1,128 @@
+/*xyazh开始*/
+* {margin:0 auto;list-style: none;padding: 0;}
+img {border: none;}
+a {text-decoration: none;color: #666}
+
+body{background-color: #fafafa;}
+
+.institute_block1{
+	width: 1200px;
+	margin: 0 auto;
+	min-width: 1200px;
+}
+.institute_block2{
+	width: 1200px;
+	height: 33px;
+	line-height: 33px;
+	font-family: 宋体;
+	font-size: 12px;
+	color: #333333;
+}
+.institute_block3{
+	width: 445px;
+	height: 33px;
+	line-height: 33px;
+	float: left;
+}
+.institute_block4{
+	width: 220px;
+	height: 33px;
+	line-height: 33px;
+	float: right;
+	text-align: right;
+}
+.institute_block5{
+	width: 135px;
+	height: 33px;
+	line-height: 33px;
+	float: right;
+	margin-right: 45px;
+}
+.institute_block6{
+	width: 1200px;
+	height: 200px;
+}
+.institute_block7{
+	width: 1200px;
+	height: 40px;
+	background-color: #0560b6;
+	color: #ffffff;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+}
+.institute_block7 ul{
+	width: 960px;
+	margin: 0 auto;
+	height: 400px;
+	line-height: 40px;
+}
+.institute_block7 ul li{
+	float: left;
+	padding: 0 23px;
+	border-right: 1px solid #6ca1d4;
+	cursor: pointer;
+}
+.institute_block7 ul li:first-child{padding: 0 28px;}
+.institute_block7 ul li:last-child{border-right: 0px;}
+
+.institute_block8{
+	height: 285px;
+	width: 1200px;
+	margin-top: 10px;
+}
+.institute_block9{
+	height: 285px;
+	width: 800px;
+	float: left;
+}
+.institute_block10{
+	width: 100%;
+  	height: 285px;
+  	overflow: hidden;
+  	position: relative;
+  	border: 1px solid #ddd;
+ 	margin: 0 auto; 
+  }
+.institute_block11{
+	height: 40px;
+	width: 100%;
+  	overflow: hidden;
+  	position: absolute;
+  	z-index: 1;
+  	bottom: 0px;
+}
+.institute_block11 ul{
+	overflow: hidden;
+  	zoom: 1;
+  	float: right;
+}
+.institute_block11 ul li{
+	float: left;
+	margin-top: 12px;
+  	margin-right: 10px;
+  	width: 15px;
+  	height: 15px;
+  	background: #fff;
+  	cursor: pointer; 
+  	border-radius: 10px;
+  	background-color: #ffffff;
+}
+.institute_block10 .institute_block11 ul li.on {
+	background-color: #008CD6;
+}
+
+.institute_block12{
+	position: relative;
+  	height: 100%;
+  	z-index: 0;
+}
+.institute_block12 li{
+	zoom: 1;
+  	vertical-align: middle;
+}
+.institute_block12 img{
+	width: 100%;
+  	height: 285px;
+  	display: block;
+}
