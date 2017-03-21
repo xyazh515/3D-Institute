@@ -13,7 +13,7 @@
 		<div class="institute_block1">
 			<div class="institute_block2">
 				<div class="institute_block3">欢迎访问工业和信息化部工业文化发展中心增材制造（3D打印）研究院官方网站</div>
-				<div class="institute_block4">今天是 <a>2017年3月10日14:34:02</a> 星期五</div>
+				<div class="institute_block4">今天是 <span id="bgclock"></span></div>
 				<div class="institute_block5"><a href="#">加入收藏</a>  |  <a href="#">设为首页</a></div>
 			</div>
 			
@@ -310,6 +310,7 @@
 			var MyMar=setInterval(Marquee,speed); 
 			tab.onmouseover=function() {clearInterval(MyMar)}; 
 			tab.onmouseout=function() {MyMar=setInterval(Marquee,speed)}; 
+			var date=new Date();
 		</script> 
  
 		<script type="text/javascript">
@@ -321,5 +322,32 @@
 			}
 		});
 		</script>
+		
+		<script type="text/javascript">
+function clockon(){
+    var now = new Date();
+    var year = now.getFullYear(); //getFullYear getYear
+    var month = now.getMonth();
+    var date = now.getDate();
+    var day = now.getDay();
+    var hour = now.getHours();
+    var minu = now.getMinutes();
+    var sec = now.getSeconds();
+    var week;
+    month = month + 1;
+    if (month < 10) month = "0" + month;
+    if (date < 10) date = "0" + date;
+    if (hour < 10) hour = "0" + hour;
+    if (minu < 10) minu = "0" + minu;
+    if (sec < 10) sec = "0" + sec;
+    var arr_week = new Array("星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六");
+    week = arr_week[day];
+    var time = "";
+    time = year + "年" + month + "月" + date + "日" + " " + hour + ":" + minu + ":" + sec + " " + week;
+    $("#bgclock").html(time);
+    var timer = setTimeout("clockon()", 200);
+}
+	clockon();
+	</script>
 	</body>
 </html>
