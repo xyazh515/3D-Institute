@@ -329,6 +329,11 @@ body{background-color: #fafafa;}
 	height: 260px;
 	margin-left: 5px;
 	margin-top: 10px;
+	overflow: hidden;
+}
+.index_zhuanjia2{
+	float: left; 
+	width: 800%;
 }
 .institute_block32{
 	width: 190px;
