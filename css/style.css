@@ -39,6 +39,7 @@ body{background-color: #fafafa;}
 	float: right;
 	margin-right: 10px;
 }
+
 .institute_block5 a:hover{color: #0560B6;text-decoration:underline;}
 .institute_block6{
 	width: 1200px;
@@ -65,9 +66,13 @@ body{background-color: #fafafa;}
 	border-right: 1px solid #6ca1d4;
 	cursor: pointer;
 }
+.institute_block7 ul li a {color: #fff;}/*created by chasen 2017-3-22 13:55:05* 添加了a标签及其央样式*/
+
 .institute_block7 ul li:first-child{padding: 0 28px;}
 .institute_block7 ul li:last-child{border-right: 0px;}
-.institute_block7 ul li:hover{text-decoration: underline;}
+.institute_block7 ul li:hover{background-color: #0f427c;}/*edited by chasen 2017-3-22 14:00:46* 去掉了鼠标悬停下划线，添加了鼠标选定背景颜色*/
+.nav_select {background-color: #0f427c;}/*edited by chasen 2017-3-22 14:21:48 当前页面导航标签的背景颜色*/
+
 .institute_block8{
 	height: 285px;
 	width: 1200px;
@@ -562,7 +567,7 @@ width: 800%;
 	font-size: 14px;
 	color: #333333;
 	line-height: 39px;
-	cursor: pointer;
+	
 	
 }
 .xinwen_block4 ul li span{float: right;font-family: "宋体";}
@@ -570,8 +575,11 @@ width: 800%;
 	width: 876px;
 	height: 30px;
 	text-align: center;
-	margin-top: 10px;	
+	margin-top: 10px;
 }
+
+.xinwen_block5 a input {outline: none;}/*created by chasen 2017-3-22 14:25:34 去掉了翻页按钮的聚焦边框*/
+
 .xinwen_block6{
 	width: 50px;
 	height: 25px;
