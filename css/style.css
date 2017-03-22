@@ -683,6 +683,7 @@ width: 800%;
 .news_middle_bg{
 	width: 1178px;
 	height: auto;
+	min-height: 500px;
 	border: 1px solid #e6e1e2;
 	margin-top: 10px;
 	background-color:#ffffff;
@@ -691,6 +692,7 @@ width: 800%;
 .news_middle_text_bg{
 	width: 1176px;
 	height: auto;
+	min-height: 500px;
 	border: 1px solid #e6e1e2;
 	background-color:#ffffff;
 }
@@ -777,6 +779,26 @@ width: 800%;
 	height: 35px;
 	line-height: 35px;
 }
-.jieshao_left_aticle_bg{
-	
+.jieshao_left_article_bg{
+	width: 770px;
+	margin: 0 auto;
 }
+.jieshao_left_article_title{
+	width: 770px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	color: #333333;
+	font-weight: bold;
+	margin-top: 45px;
+	margin-bottom: 25px;
+}
+.jieshao_left_article_bg p{
+	margin-bottom: 30px;
+	font-size: 16px;
+	color: #333333;
+	font-family: "宋体";
+	line-height: 1.5;
+	text-indent: 2em;
+}
+
