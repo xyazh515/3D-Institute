@@ -154,36 +154,71 @@
 					<a href="zhuanjia.html"><div class="institute_block13">更多>></div></a>
 				</div>
 				<hr class="institute_block14" />
-				<div class="institute_block31">
-					<div class="institute_block32">
-						<img src="img/zhuanjia1.png" />
-						<div class="institute_block33"></div>
-						<div class="institute_block34">张大力</div>
-					</div>
-					<div class="institute_block32">
-						<img src="img/zhuanjia2.png" />
-						<div class="institute_block33"></div>
-						<div class="institute_block34">王仪涵</div>
-					</div>
-					<div class="institute_block32">
-						<img src="img/zhuanjia3.png" />
-						<div class="institute_block33"></div>
-						<div class="institute_block34">李力发</div>
-					</div>
-					<div class="institute_block32">
-						<img src="img/zhuanjia4.png" />
-						<div class="institute_block33"></div>
-						<div class="institute_block34">周海媚</div>
-					</div>
-					<div class="institute_block32">
-						<img src="img/zhuanjia5.png" />
-						<div class="institute_block33"></div>
-						<div class="institute_block34">刘诗昆</div>
-					</div>
-					<div class="institute_block35">
-						<img src="img/zhuanjia6.png" />
-						<div class="institute_block33"></div>
-						<div class="institute_block34">帕克斯</div>
+				<div class="institute_block31" id="index_zhuanjia">
+					<div class="index_zhuanjia2">
+						<div id="index_zhuanjia1" style="float: left;">
+							<div class="institute_block32">
+								<img src="img/zhuanjia1.png" />
+								<div class="institute_block33"></div>
+								<div class="institute_block34">张大力</div>
+							</div>
+							<div class="institute_block32">
+								<img src="img/zhuanjia2.png" />
+								<div class="institute_block33"></div>
+								<div class="institute_block34">王仪涵</div>
+							</div>
+							<div class="institute_block32">
+								<img src="img/zhuanjia3.png" />
+								<div class="institute_block33"></div>
+								<div class="institute_block34">李力发</div>
+							</div>
+							<div class="institute_block32">
+								<img src="img/zhuanjia4.png" />
+								<div class="institute_block33"></div>
+								<div class="institute_block34">周海媚</div>
+							</div>
+							<div class="institute_block32">
+								<img src="img/zhuanjia5.png" />
+								<div class="institute_block33"></div>
+								<div class="institute_block34">刘诗昆</div>
+							</div>
+							<div class="institute_block32">
+								<img src="img/zhuanjia6.png" />
+								<div class="institute_block33"></div>
+								<div class="institute_block34">帕克斯</div>
+							</div>
+							<div class="institute_block32">
+								<img src="img/zhuanjia1.png" />
+								<div class="institute_block33"></div>
+								<div class="institute_block34">张大力</div>
+							</div>
+							<div class="institute_block32">
+								<img src="img/zhuanjia2.png" />
+								<div class="institute_block33"></div>
+								<div class="institute_block34">王仪涵</div>
+							</div>
+							<div class="institute_block32">
+								<img src="img/zhuanjia3.png" />
+								<div class="institute_block33"></div>
+								<div class="institute_block34">李力发</div>
+							</div>
+							<div class="institute_block32">
+								<img src="img/zhuanjia4.png" />
+								<div class="institute_block33"></div>
+								<div class="institute_block34">周海媚</div>
+							</div>
+							<div class="institute_block32">
+								<img src="img/zhuanjia5.png" />
+								<div class="institute_block33"></div>
+								<div class="institute_block34">刘诗昆</div>
+							</div>
+							<div class="institute_block32">
+								<img src="img/zhuanjia6.png" />
+								<div class="institute_block33"></div>
+								<div class="institute_block34">帕克斯</div>
+							</div>
+						</div>
+						<div id="index_zhuanjia2" style="float: left;"></div>
 					</div>
 				</div>
 			</div>
@@ -294,6 +329,25 @@
 		</div>
 		<script type="text/javascript"> 
 			//底下滚动
+			var speed1=15; 
+			var tab3=document.getElementById("index_zhuanjia"); 
+			var tab4=document.getElementById("index_zhuanjia1"); 
+			var tab5=document.getElementById("index_zhuanjia2"); 
+			tab5.innerHTML=tab4.innerHTML; 
+			function Marquee1(){ 
+				if(tab5.offsetWidth-tab3.scrollLeft<=0) 
+					tab3.scrollLeft-=tab4.offsetWidth 
+				else{ 
+					tab3.scrollLeft++; 
+				} 
+			} 
+			var MyMar1=setInterval(Marquee1,speed1); 
+			tab3.onmouseover=function() {clearInterval(MyMar1)}; 
+			tab3.onmouseout=function() {MyMar1=setInterval(Marquee1,speed1)}; 
+		</script> 
+		
+		<script type="text/javascript"> 
+			//底下滚动
 			var speed=15; 
 			var tab=document.getElementById("demo"); 
 			var tab1=document.getElementById("demo1"); 
@@ -309,8 +363,8 @@
 			var MyMar=setInterval(Marquee,speed); 
 			tab.onmouseover=function() {clearInterval(MyMar)}; 
 			tab.onmouseout=function() {MyMar=setInterval(Marquee,speed)}; 
-			var date=new Date();
-		</script> 
+		</script>
+		
 
 		<script type="text/javascript">
 			//轮播调用的代码

@@ -329,6 +329,11 @@ body{background-color: #fafafa;}
 	height: 260px;
 	margin-left: 5px;
 	margin-top: 10px;
+	overflow: hidden;
+}
+.index_zhuanjia2{
+	float: left; 
+	width: 800%;
 }
 .institute_block32{
 	width: 190px;
@@ -678,3 +683,127 @@ width: 800%;
   	-webkit-border-radius: 10px; /* Safari 和 Chrome */
 }
 .xinwen_block12:hover{background-color: #0560b6;color: #FFFFFF;}
+
+/*news开始*/
+.news_middle_bg{
+	width: 1178px;
+	height: auto;
+	min-height: 500px;
+	border: 1px solid #e6e1e2;
+	margin-top: 10px;
+	background-color:#ffffff;
+	padding: 10px;
+}
+.news_middle_text_bg{
+	width: 1176px;
+	height: auto;
+	min-height: 500px;
+	border: 1px solid #e6e1e2;
+	background-color:#ffffff;
+}
+.news_article_title{
+	width: 1176px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 40px;
+	color: #333333;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+.news_article_author{
+	width: 1176px;
+	height: 20px;
+	line-height: 20px;
+	color: #333333;
+	font-size: 12px;
+	text-align: center;
+}
+.news_middle_text{
+	width: 1055px;
+	height: auto;
+	margin: 0 auto;
+}
+.news_line{
+	height:1px;
+	border:none;
+	border-top:1px solid #e6e1e2;
+	margin-top: 15px;
+}
+.news_middle_text p{
+	text-indent: 2em;
+	margin-top: 30px;
+	color: #333333;
+	font-size: 14px;
+	font-family: "宋体";
+	line-height: 1.714;
+	letter-spacing: 0.75px;
+}
+.news_article_pic{	
+	margin-top: 30px;
+	line-height: 1.714;
+	text-align: center;
+}
+.news_article_kongbai{
+	height: 150px;
+}
+
+/*jieshao开始*/
+.jieshao_bg{
+	width: 1178px;
+	height: auto;
+	border: 1px solid #e6e1e2;
+	margin-top: 10px;
+	background-color:#ffffff;
+	padding: 10px;
+}
+.jieshao_bg2{
+	width: 1178px;
+	height: auto;
+	min-height: 500px;
+}
+.jieshao_left_bg{
+	width: 876px;
+	height: auto;
+	min-height: 500px;
+	border: 1px solid #e6e1e2;
+	background-color:#ffffff;
+	float: left;
+}
+.jieshao_right_bg{
+	height: auto;
+	min-height: 500px;
+	width: 288px;
+	border: 1px solid #e6e1e2;
+	background-color:#ffffff;
+	float: left;
+	margin-left: 10px;
+}
+.jieshao_left_title{
+	width: 876px;
+	height: 35px;
+	line-height: 35px;
+}
+.jieshao_left_article_bg{
+	width: 770px;
+	margin: 0 auto;
+}
+.jieshao_left_article_title{
+	width: 770px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	color: #333333;
+	font-weight: bold;
+	margin-top: 45px;
+	margin-bottom: 25px;
+}
+.jieshao_left_article_bg p{
+	margin-bottom: 30px;
+	font-size: 16px;
+	color: #333333;
+	font-family: "宋体";
+	line-height: 1.5;
+	text-indent: 2em;
+}
+
