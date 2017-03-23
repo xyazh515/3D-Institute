@@ -702,7 +702,7 @@ width: 800%;
 	background-color:#ffffff;
 }
 .news_article_title{
-	width: 1176px;
+	/*width: 1176px;*/ /*edited by chasen 2017-3-23 09:37:06 新闻内容页标题不居中*/
 	height: 30px;
 	line-height: 30px;
 	margin-top: 40px;
@@ -712,7 +712,7 @@ width: 800%;
 	text-align: center;
 }
 .news_article_author{
-	width: 1176px;
+	/*width: 1176px;*/  /*edited by chasen 2017-3-23 09:36:32 新闻内容页时间不居中*/
 	height: 20px;
 	line-height: 20px;
 	color: #333333;
