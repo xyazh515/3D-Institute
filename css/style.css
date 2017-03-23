@@ -401,7 +401,6 @@ body{background-color: #fafafa;}
 	font-size: 12px;
 	color: #333333;
 	line-height: 33px;
-	
 }
 
 .institute_block39{
@@ -495,30 +494,33 @@ width: 800%;
 	overflow: hidden; 
 	text-overflow: ellipsis;
 	white-space: nowrap;
-	width: 21em;
+	width: 250px;
 	word-break: keep-all;
 	float:right;
-	margin-right: 2em;
+	margin-right: 37px;
+	margin-left: -30px;
 }
 .text_size:hover{text-decoration: underline;color: #0560B6;}
 .text_size1{
 	overflow: hidden; 
 	text-overflow: ellipsis;
 	white-space: nowrap;
-	width: 25em;
+	width: 300px;
 	word-break: keep-all;
 	float:right;
-	margin-right: 14.5em;
+	margin-right: 188px;
+	margin-left: -30px;
 }
 .text_size1:hover{text-decoration: underline;color: #0560B6;}
 .text_size2{
 	overflow: hidden; 
 	text-overflow: ellipsis;
 	white-space: nowrap;
-	width: 36em;
+	width: 450px;
 	word-break: keep-all;
 	float:right;
-	margin-right: 16em;
+	margin-right: 300px;
+	margin-left: -20px;
 	font-family: "宋体";
 }
 .text_size2:hover{text-decoration: underline;color: #0560B6;}
@@ -526,13 +528,25 @@ width: 800%;
 	overflow: hidden; 
 	text-overflow: ellipsis;
 	white-space: nowrap;
-	width: 19em;
+	width: 230px;
 	word-break: keep-all;
 	float:right;
-	margin-right: 35px;
+	margin-right: 42px;
+	margin-left: -20px;
 	font-family: "宋体";
 }
 .text_size3:hover{text-decoration: underline;color: #0560B6;}
+.text_size4{
+	overflow: hidden; 
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 255px;
+	word-break: keep-all;
+	float:right;
+	margin-right: 42px;
+	margin-left: -30px;
+}
+.text_size4:hover{text-decoration: underline;color: #0560B6;}
 
 /*xinwen*/
 .xinwen_block1{
@@ -702,7 +716,7 @@ width: 800%;
 	background-color:#ffffff;
 }
 .news_article_title{
-	width: 1176px;
+	width: 1055px;
 	height: 30px;
 	line-height: 30px;
 	margin-top: 40px;
@@ -712,7 +726,7 @@ width: 800%;
 	text-align: center;
 }
 .news_article_author{
-	width: 1176px;
+	width: 1055px;
 	height: 20px;
 	line-height: 20px;
 	color: #333333;
