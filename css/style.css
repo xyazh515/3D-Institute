@@ -402,7 +402,6 @@ body{background-color: #fafafa;}
 	color: #333333;
 	line-height: 33px;
 }
-
 .institute_block39{
 	width: 398px;
 	height: 358px;
@@ -547,6 +546,13 @@ width: 800%;
 	margin-left: -30px;
 }
 .text_size4:hover{text-decoration: underline;color: #0560B6;}
+.text_size5{
+	width: 340px;
+	float:right;
+	margin-right: 15px;
+	margin-left: -15px;
+}
+.text_size5:hover{text-decoration: underline;color: #0560B6;}
 
 /*xinwen*/
 .xinwen_block1{
@@ -821,5 +827,110 @@ width: 800%;
 	font-family: "宋体";
 	line-height: 1.5;
 	text-indent: 2em;
+}
+
+.chanye-wechat{
+	width: 288px;
+	height: 116px;
+	text-align: center;
+}
+.chanye-wechat-txt{
+	height: 20px;
+	width: 288px;
+	text-align: center;
+	color: #333333;
+	font-size: 14px;
+}
+.chanye-right-lianxi{
+	width: 268px;
+	height: 185px;
+	margin-left: 10px;
+	margin-top: 20px;
+	font-size: 16px;
+	color: #333333;
+	font-family: "微软雅黑";
+}
+.chanye-right-lianxi-title{
+	width: 268px;
+	height: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.chanye-right-lianxi-address{
+	width: 268px;
+	height: 20px;
+	font-size: 12px;
+	font-family: "宋体";
+	color: #333333;
+}
+.lianxi_middle_text{
+	width: 1055px;
+	height: auto;
+	margin: 35px auto 0;
+}
+.lianxi_middle_text-size{
+	width: 1055px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	color: #333333;
+	font-family: "微软雅黑";
+}
+.zhuanjia-bg{
+	width: 1178px;
+	height: 1430px;
+	border: 1px solid #e6e1e2;
+	margin-top: 10px;
+	background-color:#ffffff;
+	padding: 10px;
+}
+.zhuanjia-left-bg{
+	width: 876px;
+	height: 1428px;
+	border: 1px solid #e6e1e2;
+	background-color:#ffffff;
+	float: left;
+}
+.zhuanjia-right-bg{
+	width: 288px;
+	height: 1428px;
+	border: 1px solid #e6e1e2;
+	background-color:#ffffff;
+	float: left;
+	margin-left: 10px;
+}
+.zhuanjia-left-block{
+	width: 830px;
+	height: 290px;
+	border-bottom: 1px solid #e6e1e2;
+	margin-left: 45px;
+}
+.zhuanjia-left-block-inner{
+	width: 830px;
+	height: 260px;
+	margin-top: 30px;
+	margin-left: 0px;
+}
+.zhuanjia-left-txt-block{
+	width: 550px;
+	height: 260px;
+	margin-left: 25px;
+	float: left;
+}
+.zhuanjia-left-txt-title{
+	height: 48px;
+	width: 550px;
+	line-height: 48px;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	color: #333333;
+}
+.zhuanjia-left-txt-block p{
+	text-indent: 2em;
+	font-size: 14px;
+	color: #333333;
+	font-family: "宋体";
+	line-height: 24px;
 }
 
